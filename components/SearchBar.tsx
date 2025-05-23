@@ -3,7 +3,7 @@ import { Image, Text, TextInput, View } from "react-native";
 import { icons } from "../constants/icons";
 
 interface Props {
-    onPress?: () => void;
+    onPress?: () => void; //optional ?
     placeholder: string;
 }
 
